@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - EE - removed review amount and add your review link from product grid (#74637)
 - duplicated requisition list button (#74883)
+### Fixed
+- quality of images on compare products page (#74635)
 
 ## [Released]
 ## [2.13.0] - 2021-01-21
