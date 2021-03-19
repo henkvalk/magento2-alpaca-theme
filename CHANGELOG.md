@@ -2,8 +2,30 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+### Updated
+- Fractal npm dependencies (PLEASE UPDATE IN CHILD THEMES) (#75847)
+### Fixed
+- jumping images on PDP (#75491) Affects: images on PDP
+- Backorder product notification in minicart (#76180)
+
+## [Released]
+
+## [2.15.0] - 2021-02-25
+### Updated
+- header variable & template; atomic `width-full-screen` class (#75554)
+### Fixed
+- method typo (#76074)
+
+### Added
+- handlebar `or` helper (#75554)
+
+## [2.14.0] - 2021-02-09
+### Updated
+- theme to Magento 2.4.2 (#75141)
 ### Fixed
 - quality of images on compare products page (#74635)
+- error on multishipping and requisition list pages on quantity update (#75141)
+- error on mouse move in checkout address search modal (#75141)
 ### Removed
 - EE - removed review amount and add your review link from product grid (#74637)
 - duplicated requisition list button (#74883)
@@ -12,7 +34,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - apply code buttons to uppercase, update placeholders for gift card, add new template for gift card on commerce version (#74636)
 
-## [Released]
 ## [2.13.0] - 2021-01-21
 ### Updated
 - theme to Magento 2.4.1 (#70133)
@@ -38,6 +59,7 @@ All notable changes to this project will be documented in this file.
 - store credit dashboard to components (#72456)
 - adjustments to checkout address search templates (#72454)
 - adjustments to reward points templates (#70571) Affects: cart & checkout payment step
+- variables for product view add to cart button and cms contact max-width (#73403)
 
 ### Fixed
 - performance, changes for magepack - optimise js (minify js libs, datapicker, calendar, M2 bootstrap, marketing bar), styles loading (preload, remove useless variables), fonts (swap)
