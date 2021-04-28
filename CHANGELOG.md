@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Removed
 ### Fixed
 - password trigger on reset password page (#78130)
+- image ratio in recently viewed widget & wishlist (#77269)
 
 ## [Released]
 ## [2.18.0] - 2021-04-21
