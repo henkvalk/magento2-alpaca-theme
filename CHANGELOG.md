@@ -3,11 +3,27 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
+- focus state for amlocator route creator icons (#73168)
 ### Fixed
+- incorrent unit in store distance (#73168)
+- store review stars & input styling (#73168)
 ### Updated
+- unified store locator buttons styling (#73168)
+- store locator range slider replaced with noUiSlider (#73168)
+- store locator thumbnails `object-fit` set to cover (#73168)
+- route creator colors (#73168)
 ### Removed
 
+
 ## [Released]
+
+## [2.20.0] - 2021-05-24
+### Fixed
+- duplicated ids for msrp price popup (#78814)
+### Added
+- margin top to quote button in cart (#78684)
+### Updated
+- tabs component accessibility
 ## [2.19.3] - 2021-05-18
 ### Fixed
 - fix product display with long names in minicart (#78748)
