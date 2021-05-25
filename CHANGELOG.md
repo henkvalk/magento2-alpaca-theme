@@ -14,7 +14,8 @@ All notable changes to this project will be documented in this file.
 - route creator colors (#73168)
 ### Removed
 
-
+### Fixed
+- empty product reviews list in customer dashboard (#78932)
 ## [Released]
 
 ## [2.20.0] - 2021-05-24
