@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file.
 - incorrent unit in store distance (#73168)
 - store review stars & input styling (#73168)
 - escaper method used in qtyUpdater data-mage-init (#78380)
+- code cleanup (#77782)
+- aos error & button add to cart sticky text on edit product in shopping cart page (#79328)
 ### Updated
 - unified store locator buttons styling (#73168)
 - store locator range slider replaced with noUiSlider (#73168)
@@ -16,11 +18,15 @@ All notable changes to this project will be documented in this file.
 - gallery style variables (#78380)
 ### Removed
 
+## [Released]
+## [2.21.0] - 2021-06-09
+### Updated
+- gallery style variables (#78380)
 ### Fixed
 - empty product reviews list in customer dashboard (#78932)
 - safari tab scroll issue on PDP (#78961)
 - quantity update button styles on focus (#79275)
-## [Released]
+- escaper method used in qtyUpdater data-mage-init (#78380)
 
 ## [2.20.0] - 2021-05-24
 ### Fixed
