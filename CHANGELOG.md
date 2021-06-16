@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - code cleanup (#77782)
 - aos error & button add to cart sticky text on edit product in shopping cart page (#79328)
 - missing `_` in translations (#79500)
+- multishipping and requisition list styling (#79008)
 
 ### Updated
 - unified store locator buttons styling (#73168)
