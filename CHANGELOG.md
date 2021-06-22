@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
+- yireo/magento2-webp2 package for webp images (#72754)
+### Fixed
+- duplicated loader on PDP (#79360)
+### Updated
+- adjusted styles for webp images (#72754)
+
+### Removed
+- lazy loading for slider and banner images (#72754)
+
+## [Released]
+## [2.22.0] - 2021-06-17
+### Added
 - focus state for amlocator route creator icons (#73168)
 ### Fixed
 - incorrent unit in store distance (#73168)
@@ -11,8 +23,9 @@ All notable changes to this project will be documented in this file.
 - code cleanup (#77782)
 - aos error & button add to cart sticky text on edit product in shopping cart page (#79328)
 - missing `_` in translations (#79500)
+- incorrent unit in store distance (#73168)
+- store review stars & input styling (#73168)
 - multishipping and requisition list styling (#79008)
-
 ### Updated
 - unified store locator buttons styling (#73168)
 - store locator range slider replaced with noUiSlider (#73168)
