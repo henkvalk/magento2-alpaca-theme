@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - `aria-label` in gallery (#80417)
 - add to cart sticky shouldn't have focusable elements when it has `aria-hidden="true"` (#80420)
 - shopping cart - visually hide qty label instead of display none (#80422)
+- select2 a11y - element `span[aria-labelledby="select2-sorter-container"] > .select2-selection__arrow[role="presentation"] > b` shouldn't have ARIA role presentation (#80452)
 ### Updated
 - adjusted styles for webp images (#72754)
 
