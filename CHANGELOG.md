@@ -12,6 +12,8 @@ All notable changes to this project will be documented in this file.
 - shopping cart - visually hide qty label instead of display none (#80422)
 - select2 a11y - element `span[aria-labelledby="select2-sorter-container"] > .select2-selection__arrow[role="presentation"] > b` shouldn't have ARIA role presentation (#80452)
 - some a11y issues in checkout (#80424)
+### Changed
+- instead of using atomic classes for some page heading styles added in a lot of places, created a new class for easier customization (#80498)
 ### Updated
 - adjusted styles for webp images (#72754)
 
