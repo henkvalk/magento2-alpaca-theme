@@ -1,5 +1,9 @@
 <button
-    class="primary <?= $block->escapeHtmlAttr($this->getButtonCssClass()) ?>"
+    class="
+        button
+        primary
+        <?= $block->escapeHtmlAttr($this->getButtonCssClass()) ?>
+    "
     data-modal-trigger="<?= $block->escapeHtmlAttr($this->getContainerId()) ?>"
     data-mage-init='{"modal": {}}'
     type="button"
@@ -12,7 +16,7 @@
     aria-hidden="true"
     id="<?= $block->escapeHtmlAttr($this->getContainerId()) ?>"
     data-modal="<?= $block->escapeHtmlAttr($this->getContainerId()) ?>"
-    class="modal"
+    class="modal modal--button"
 >
     <div
         class="modal__container"
@@ -59,7 +63,7 @@
                 role="presentation"
                 focusable="false"
             >
-                <use xlink:href="<?= $block->escapeUrl($block->getViewFileUrl('images/icons-sprite.svg#close')); ?>"></use>
+                <use href="<?= $block->escapeUrl($block->getViewFileUrl('images/icons-sprite.svg#close')); ?>"></use>
             </svg>
         </button>
     </div>
