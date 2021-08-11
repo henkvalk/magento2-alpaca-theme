@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - tax field styling on checkout (#81627)
 ### Changed
 ### Updated
+- bump select2, `select--search` component (#80105, #81472)
 ### Removed
 
 
