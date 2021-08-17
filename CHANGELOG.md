@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 ### Added
 - column template variables for catalog grid styles (#81732)
+- background color for 'Add to wishlist' button (#81767)
 ### Fixed
  - webforms width (#79614)
 - jquery and fotorama don't use passive listeners to improve scrolling performance (#72752)
@@ -13,6 +14,7 @@ All notable changes to this project will be documented in this file.
 - user role styling on My Account page (#81750)
 ### Changed
 - moved catalog grid scss variables to separate file (#81732)
+- move all content to the left for product list view on mobile (#81767)
 ### Updated
 - bump select2, `select--search` component (#80105, #81472)
 ### Removed
