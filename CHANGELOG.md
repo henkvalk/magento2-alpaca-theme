@@ -17,13 +17,16 @@ All notable changes to this project will be documented in this file.
 - border styling for multishipping view (#81624)
 - styling for table in gift registy items (#81936)
 - quantity styling in table when product name is too long (#81950)
+- some icons a11y in templates (#80844)
 ### Changed
 - moved catalog grid scss variables to separate file (#81732)
 - move all content to the left for product list view on mobile (#81767)
+- `xlink:href` (deprecated) to `href` (#80844)
+- some icons code in templates to lower the number of icon related requests (#80844)
 ### Updated
 - bump select2, `select--search` component (#80105, #81472)
 ### Removed
-
+- svg4everybody (no longer needed for browser support (#80844)
 
 ## [Released]
 ## [2.23.0] - 2021-08-03
