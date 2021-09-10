@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 ### Added
+### Fixed
+### Changed
+### Updated
+### Removed
+
+## [Released]
+## [2.24.0] - 2021-09-09
+### Added
 - column template variables for catalog grid styles (#81732)
 - background color for 'Add to wishlist' button (#81767)
 - 'Recently viewed' component in fractal product bundle and product grouped templates (#81919)
@@ -22,10 +30,12 @@ All notable changes to this project will be documented in this file.
 - some icons a11y in templates (#80844)
 - error on privacy settings section in account settings (#81873)
 - cookie modal not showing when clicking save button (#81873)
+- some icons a11y in templates (#80844)
 - Quote reorder popup when having items in cart not displaying correctly (#82047)
 ### Changed
 - moved catalog grid scss variables to separate file (#81732)
 - move all content to the left for product list view on mobile (#81767)
+- restored cookie-settings page for Amasty GDPR (#81873)
 - `xlink:href` (deprecated) to `href` (#80844)
 - some icons code in templates to lower the number of icon related requests (#80844)
 - move all content to the left for product list view on mobile (#81767)
@@ -36,8 +46,6 @@ All notable changes to this project will be documented in this file.
 - styling for cookie table information (#81873)
 ### Removed
 - svg4everybody (no longer needed for browser support (#80844)
-
-## [Released]
 ## [2.23.0] - 2021-08-03
 ### Added
 - yireo/magento2-webp2 package for webp images (#72754)
