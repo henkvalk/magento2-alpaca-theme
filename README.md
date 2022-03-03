@@ -42,7 +42,8 @@ Additional, non-opensource modules the theme works with to cover additional feat
 Install whole package using composer:
 `composer require snowdog/module-alpaca-packages`
 
-Node >=12.13.0 <13.0.0 is required for frontools and components
+* Node >=12.13.0 <13.0.0 is required for frontools (<= v1.11) and components
+* Node >=14.0.0 <17.0.0 is required for frontools (>= v1.12) and components
 
 ### Theme
 1. Create child theme composer repository:
