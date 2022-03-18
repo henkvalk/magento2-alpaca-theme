@@ -4,6 +4,8 @@
   "license": "MIT",
   "type": "magento2-theme",
   "require": {
+    "snowdog/module-category-attributes": "^1.4",
+    "snowdog/module-shipping-latency": "^1.3",
     "yireo/magento2-webp2": "^0.10.7"
   },
   "autoload": {
